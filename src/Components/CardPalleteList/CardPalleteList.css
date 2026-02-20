@@ -1,0 +1,8 @@
+/* src/Components/CardPalleteList/CardPalleteList.css */
+.cards-grid {
+  display: grid;
+  /* TRUCO PRO: Crea columnas de mínimo 220px y máximo lo que sobre (1fr) */
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px; /* Espacio entre tarjetas */
+  padding-bottom: 50px;
+}

@@ -1,0 +1,50 @@
+/* src/Components/CardPallete/CardPallete.css */
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden; /* CLAVE: Corta los colores rectos para que sigan la curva de la tarjeta */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Efecto al pasar el mouse (hover) */
+.card:hover {
+  transform: translateY(-5px); /* Sube un poquito */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-footer {
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between; /* Separa los elementos a los extremos */
+  align-items: center;
+  background-color: white;
+  height: 50px;
+}
+
+.like-btn {
+  background: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+  transition: all 0.2s;
+}
+
+.like-btn:hover {
+  border-color: #fdaaaa;
+  color: #e03e3e;
+}
+
+.date {
+  font-size: 0.75rem;
+  color: #999;
+}

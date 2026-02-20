@@ -1,0 +1,10 @@
+.color-box {
+  width: 100%;
+  flex: 1; /* Por defecto, todos ocupan 1 parte del espacio disponible */
+}
+
+/* EL SECRETO DE COLOR HUNT */
+/* Al primer hijo (el color de arriba) le damos más espacio */
+.color-box:first-child {
+  flex: 3.5; /* Ocupa 3.5 veces más espacio que los otros */
+}

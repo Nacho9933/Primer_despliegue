@@ -1,0 +1,6 @@
+.palette-display {
+  display: flex;
+  flex-direction: column; /* Apila los colores uno arriba de otro */
+  height: 180px;          /* Altura total fija de la zona de color */
+  width: 100%;
+}
